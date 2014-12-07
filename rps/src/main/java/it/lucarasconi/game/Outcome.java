@@ -1,5 +1,10 @@
 package it.lucarasconi.game;
 
+/**
+ * Outcome Enum 
+ * @author luca.rasconi
+ *
+ */
 public enum Outcome {
 	DRAW("draw"), WIN("win"), LOSE("lose"), WAIT("wait");
 
