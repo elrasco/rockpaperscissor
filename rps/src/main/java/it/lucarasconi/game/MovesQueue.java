@@ -8,11 +8,6 @@ public class MovesQueue {
 
 	private static Queue<Move> moves = new ConcurrentLinkedQueue<Move>();
 	
-	/**
-	 * get the head of the FIFO queue
-	 * @param p
-	 * @return
-	 */
 	public static Move getAValidMoveFor(Player p) {
 		for (Move move : moves) {
 			if (!move.getPlayer().isEqual(p)) {
