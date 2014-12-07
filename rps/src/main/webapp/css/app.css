@@ -1,0 +1,23 @@
+.sign {
+	padding: 5px;
+	border: 1px solid grey;
+	margin: 1px 3px;
+}
+.sign>span {
+	cursor: pointer;
+}
+
+.result {
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.result.DRAW{
+	color: YELLOW;
+}
+.result.LOSE{
+	color: RED;
+}
+.result.WIN{
+	color: GREEN;
+}
