@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.codehaus.jackson.map.ObjectMapper;
 
+/**
+ * the web gate for the game
+ * @author luca.rasconi
+ *
+ */
 public class PlayServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 2931753802360560869L;

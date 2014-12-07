@@ -3,10 +3,10 @@ package it.lucarasconi.game;
 public class CheckWinner {
 
 	/**
-	 * sign vs another sign
+	 * the rule to check who wins
 	 * @param sign
 	 * @param anothersign
-	 * @return an outcome result from sign vs another sign
+	 * @return an outcome result from a sign vs another sign
 	 */
 	public Outcome check(Sign sign, Sign anothersign) {
 		switch (sign) {

@@ -1,5 +1,10 @@
 package it.lucarasconi.game;
 
+/**
+ * A player
+ * @author luca.rasconi
+ *
+ */
 public class Player {
 
 	private String name;

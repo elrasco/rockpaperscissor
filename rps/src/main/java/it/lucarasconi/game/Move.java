@@ -1,5 +1,10 @@
 package it.lucarasconi.game;
 
+/**
+ * someone make a move
+ * @author luca.rasconi
+ *
+ */
 public class Move {
 	
 	private Player player;

@@ -3,7 +3,6 @@ package it.lucarasconi.game;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class RPSGameManager {
 	
 	public static final String OUTCOME_KEY = "outcome";
@@ -34,7 +33,7 @@ public class RPSGameManager {
 		return result;
 	}
 	
-	public static Sign getSignEnum(String sign) {
+	private static Sign getSignEnum(String sign) {
 		switch(sign) {
 		case "rock":
 			return Sign.ROCK;

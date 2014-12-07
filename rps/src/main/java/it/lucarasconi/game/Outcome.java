@@ -1,7 +1,7 @@
 package it.lucarasconi.game;
 
 /**
- * Outcome Enum : represents the outocome of a game
+ * The outocome of a game
  * @author luca.rasconi
  *
  */
